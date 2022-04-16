@@ -1,0 +1,436 @@
+*{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+@font-face{
+	font-family: fonte1;
+	src: url(fontes/Staatliches-Regular.ttf);
+}
+
+@font-face{
+    font-family: fonte2;
+    src: url(fontes/TenorSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: fonte3;
+    src: url(fontes/SourceSerifPro-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-color:#FFF;
+    overflow-y: scroll;
+
+    
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: black; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 30px;
+}
+
+main{
+	position:relative;
+	width:100%;
+	height:auto;
+	background-color:#000;
+	margin:auto;
+}
+
+header{
+
+    position:fixed;
+    z-index:3;
+    font-family: fonte2;
+	width:100%;
+	height:75px;
+    background-color:#000;
+    float: left;
+
+    /* display:flex;
+	flex-direction: row;
+	justify-content: space-around; */
+
+}
+
+#img1{
+    width:40%;
+    height: 60%;
+    margin-left: 25%;
+    padding-top: 2%;
+
+}
+
+#menu1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+
+.lista{
+    margin-top: 2%; 
+}
+
+#menu1 a{
+    color: #FFF;
+    font-size: 15px;
+	text-decoration:none;
+	font-weight:bold;
+    text-align: center;
+
+    
+}
+
+#menu1 a:hover{
+    transition: 1s all;
+    color: #C00707;
+}
+
+
+#sec1 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(imagens/home1.jpg);
+
+    margin-top: 70px;
+    font-family: fonte1;
+    font-size: 50px;
+    color: #C5C5C5;
+    display: flex;
+    background-repeat: no-repeat;
+    margin: auto;
+  
+    flex-direction: column;
+    background-size: cover;
+
+    top: 75px;
+}
+
+
+#sec1 p{
+    position: relative;
+    margin-left: 30px;
+    margin-top: 90px;
+   
+}
+
+#quem_somos {
+    position: relative;
+    background-image: url(imagens/hme2.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.titulo{
+    color: #BF1212;
+    font-size: 40px;
+    font-family: fonte2;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.corpo{
+    color: #C5C5C5;
+    font-family: fonte3;
+    font-size: 30px;
+    text-align: center;
+    /* width: 600px;
+    float: right; */
+    margin-right: 60px ;
+}
+
+#text1{
+    width: 600px;
+    float: right;
+}
+
+#imagem{
+    text-align: right;
+    padding-right: 25%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+}
+
+#cardapio{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+
+}
+
+.titulo2{
+    color: #BF1212;
+    font-size: 40px;
+    font-family: fonte2;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+#comida{
+    
+    
+    border-radius: 34px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #868686;
+   
+}
+
+
+#divscomidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#hotroll{
+    border-radius: 34px 34px 0px 0px;
+    width: 200px;
+
+}
+
+.nome{
+font-family: fonte3;
+color: #000;
+font-weight: bold;
+text-align: center;
+padding: 5px;
+}
+
+.descricao{
+    font-family: fonte3;
+    color: #882020;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.link{
+    font-family: fonte2;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #BF1212;
+    border: 10px solid #BF1212;
+    margin-left: 50px;
+  
+}
+
+.virtual{
+    font-family: fonte2;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    clear: left;
+}
+
+#qrcode{
+   text-align: center;
+}
+
+
+
+#contato{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 800px;
+
+}
+
+.titulo3{
+    color: #BF1212;
+    font-size: 40px;
+    font-family: fonte2;
+    text-align: center;
+    padding: 80px;
+}
+
+#mapa {
+    position: relative;
+   text-align: center;
+}
+
+#texto_contato{
+    font-family: verdana;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+footer{
+    background-color: #BF1212;
+    width: 100%;
+    height: 60px;
+ 
+}
+
+#logo2{
+    width: 60px;
+    height: 50px;
+    margin-left: 48%;
+}
+
+#wpp{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 10px;
+    margin-right: 10px;
+
+}
+
+#face{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 10px;
+}
+
+#insta{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin: 10px;
+}
+
+
+
+
+/*visualização smartphone*/
+
+@media screen and (max-width:576px){
+    #divscomidas{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+   #comida{
+    margin-bottom: 15%;
+   }
+
+   #sec1{
+       text-align: center;
+   }
+
+  
+   #quemsomos{
+       text-align: center;
+      
+    }
+ 
+
+    .titulo{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+
+    .corpo{
+
+        text-align: center;
+        font-size: 25px;
+        color: #C5C5C5;;
+        width: 100%;
+        float: none;
+    }
+
+    #imagem{
+        display: none;
+    }
+
+    .p1{
+        padding-bottom: 5%;
+    }
+    
+    .lista{
+        padding-left: 10%;
+    }
+
+    #img1{
+        width: 60%;
+        height: 100%;
+        margin-left: 40%;
+    
+    }
+
+}
+
+
+
+/*visualização tablet*/
+
+@media only screen and (min-width:577px){
+    @media only screen and (max-width:768px)
+    {
+
+    #imagem{
+        display: none;
+    }
+
+    #divscomidas{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+
+   #comida{
+    margin-bottom: 15%;
+   }
+
+   .titulo{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 5%;
+    padding-top: 10%;
+   }
+
+    .p1{
+        padding-bottom: 5%;
+    }
+
+    #img1{
+    width:40%;
+    height: 60%;
+    margin-left: 25%;
+
+}
+
+}
+
+
+
+
