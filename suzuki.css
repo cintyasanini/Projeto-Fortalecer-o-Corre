@@ -20,15 +20,12 @@
 }
 
 html {
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;  
 }
 
 body{
     background-color:#FFF;
     overflow-y: scroll;
-
-    
 }
 
 body::-webkit-scrollbar{
@@ -53,7 +50,6 @@ main{
 }
 
 header{
-
     position:fixed;
     z-index:3;
     font-family: fonte2;
@@ -61,19 +57,13 @@ header{
 	height:75px;
     background-color:#000;
     float: left;
-
-    /* display:flex;
-	flex-direction: row;
-	justify-content: space-around; */
-
 }
 
 #img1{
     width:40%;
     height: 60%;
     margin-left: 25%;
-    padding-top: 2%;
-
+    padding-top: 1%;
 }
 
 #menu1{
@@ -81,7 +71,6 @@ header{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-
 }
 
 .lista{
@@ -94,8 +83,6 @@ header{
 	text-decoration:none;
 	font-weight:bold;
     text-align: center;
-
-    
 }
 
 #menu1 a:hover{
@@ -103,13 +90,11 @@ header{
     color: #C00707;
 }
 
-
 #sec1 {
     position: relative;
     width: 100%;
     height: 600px;
     background-image: url(imagens/home1.jpg);
-
     margin-top: 70px;
     font-family: fonte1;
     font-size: 50px;
@@ -117,11 +102,8 @@ header{
     display: flex;
     background-repeat: no-repeat;
     margin: auto;
-  
     flex-direction: column;
     background-size: cover;
-
-    top: 75px;
 }
 
 
@@ -129,7 +111,6 @@ header{
     position: relative;
     margin-left: 30px;
     margin-top: 90px;
-   
 }
 
 #quem_somos {
@@ -154,8 +135,6 @@ header{
     font-family: fonte3;
     font-size: 30px;
     text-align: center;
-    /* width: 600px;
-    float: right; */
     margin-right: 60px ;
 }
 
@@ -169,7 +148,6 @@ header{
     padding-right: 25%;
     padding-top: 10%;
     padding-bottom: 10%;
-    
 }
 
 #cardapio{
@@ -177,7 +155,6 @@ header{
     background-color: #000;
     width: 100%;
     height: auto;
-
 }
 
 .titulo2{
@@ -187,18 +164,14 @@ header{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-
 }
 
 #comida{
-    
-    
     border-radius: 34px;
     position: relative;
     width: 100%;
     height: 300px;
     background-color: #868686;
-   
 }
 
 
@@ -206,21 +179,19 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
 #hotroll{
     border-radius: 34px 34px 0px 0px;
     width: 200px;
-
 }
 
 .nome{
-font-family: fonte3;
-color: #000;
-font-weight: bold;
-text-align: center;
-padding: 5px;
+    font-family: fonte3;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
 }
 
 .descricao{
@@ -238,7 +209,6 @@ padding: 5px;
     background-color: #BF1212;
     border: 10px solid #BF1212;
     margin-left: 50px;
-  
 }
 
 .virtual{
@@ -254,14 +224,11 @@ padding: 5px;
    text-align: center;
 }
 
-
-
 #contato{
     position: relative;
     background-color: #000;
     width: 100%;
-    height: 800px;
-
+    height: auto;
 }
 
 .titulo3{
@@ -269,12 +236,12 @@ padding: 5px;
     font-size: 40px;
     font-family: fonte2;
     text-align: center;
-    padding: 80px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-#mapa {
-    position: relative;
-   text-align: center;
+iframe{
+    margin-left: 10%;
 }
 
 #texto_contato{
@@ -283,15 +250,13 @@ padding: 5px;
     font-size: 13px;
     text-align: center;
     margin-top: 15px;
-
-
+    padding-bottom: 5%;
 }
 
 footer{
     background-color: #BF1212;
     width: 100%;
     height: 60px;
- 
 }
 
 #logo2{
@@ -306,7 +271,6 @@ footer{
     float: right;
     margin: 10px;
     margin-right: 10px;
-
 }
 
 #face{
@@ -344,12 +308,10 @@ footer{
        text-align: center;
    }
 
-  
    #quemsomos{
        text-align: center;
       
     }
- 
 
     .titulo{
         text-align: center;
@@ -382,10 +344,17 @@ footer{
     #img1{
         width: 60%;
         height: 100%;
-        margin-left: 40%;
+        padding-left: 40%;
     
     }
 
+    header{
+        position:relative;
+    }
+
+    iframe{
+        height: 300px;
+    }
 }
 
 
@@ -426,6 +395,11 @@ footer{
     width:40%;
     height: 60%;
     margin-left: 25%;
+    }
+
+    header{
+        position:relative;
+    }
 
 }
 

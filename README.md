@@ -1,2 +1,2 @@
-# Projeto-Fortalecer-o-Corre
-Repositório para o site de restaurante japonês, que faz parte do projeto Fortalecer o Corre
+# Projeto-fortalecer-o-corre
+Repositório para o projeto de restaurante japonês
