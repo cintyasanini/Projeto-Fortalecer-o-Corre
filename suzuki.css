@@ -93,7 +93,7 @@ header{
 #sec1 {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: auto;
     background-image: url(imagens/home1.jpg);
     margin-top: 70px;
     font-family: fonte1;
@@ -104,6 +104,8 @@ header{
     margin: auto;
     flex-direction: column;
     background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 12%;
 }
 
 
@@ -179,6 +181,25 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+#divscomidas li {
+    display: inline;
+}
+
+#divscomidas li img {
+    width: 200px; /* Aqui é o tamanho da imagem */
+    -webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+    -moz-transition: 1s all ease; /* Firefox */
+    -o-transition: 1s all ease; /* Opera */
+}
+
+#divscomidas li img:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 
 #hotroll{
@@ -287,8 +308,27 @@ footer{
     margin: 10px;
 }
 
+#divscomidas {
+    list-style: none;
+    padding: 0;
+}
 
+#divscomidas li {
+    display: inline;
+}
 
+#divscomidas li img {
+    width: 200px; /* Aqui é o tamanho da imagem */
+    -webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+    -moz-transition: 1s all ease; /* Firefox */
+    -o-transition: 1s all ease; /* Opera */
+}
+
+#divscomidas li img:hover {
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 
 /*visualização smartphone*/
 
@@ -327,6 +367,7 @@ footer{
         color: #C5C5C5;;
         width: 100%;
         float: none;
+        padding-bottom: 10%;
     }
 
     #imagem{
@@ -338,14 +379,19 @@ footer{
     }
     
     .lista{
-        padding-left: 10%;
+       font-size: 10px;
+       padding-top: 5%;
+       padding-left: 4%;
     }
 
     #img1{
-        width: 60%;
-        height: 100%;
-        padding-left: 40%;
-    
+        width: 60px;
+        height: 50px;
+        padding-top: 15%;
+    }
+
+    #menu1 a{
+        font-size: 12px;
     }
 
     header{
@@ -354,6 +400,14 @@ footer{
 
     iframe{
         height: 300px;
+    }
+
+    #logo2{
+        margin-left: 40%;
+    }
+
+    #sec1 {
+        padding-bottom: 15%;
     }
 }
 
