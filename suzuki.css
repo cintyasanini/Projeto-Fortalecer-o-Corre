@@ -60,10 +60,10 @@ header{
 }
 
 #img1{
-    width:40%;
-    height: 60%;
+    width: 40%;
+    height: 65%;
     margin-left: 25%;
-    padding-top: 1%;
+    padding-top: 2%;
 }
 
 #menu1{
@@ -130,6 +130,7 @@ header{
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 35%;
 }
 
 .corpo{
@@ -137,19 +138,20 @@ header{
     font-family: fonte3;
     font-size: 30px;
     text-align: center;
-    margin-right: 60px ;
+    padding-left: 38% ;
+    width: 60%;
 }
 
-#text1{
-    width: 600px;
-    float: right;
+.p1{
+    padding-bottom: 5%;
 }
 
 #imagem{
     text-align: right;
-    padding-right: 25%;
-    padding-top: 10%;
+    padding-right: 20%;
+    padding-top: 5%;
     padding-bottom: 10%;
+    clear: right;
 }
 
 #cardapio{
@@ -317,19 +319,6 @@ footer{
     display: inline;
 }
 
-#divscomidas li img {
-    width: 200px; /* Aqui é o tamanho da imagem */
-    -webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
-    -moz-transition: 1s all ease; /* Firefox */
-    -o-transition: 1s all ease; /* Opera */
-}
-
-#divscomidas li img:hover {
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -o-transform: scale(1.5);
-}
-
 /*visualização smartphone*/
 
 @media screen and (max-width:576px){
@@ -358,16 +347,12 @@ footer{
         font-size: 30px;
         padding-bottom: 5%;
         padding-top: 10%;
+        padding-left: 5%;
     }
 
     .corpo{
-
-        text-align: center;
-        font-size: 25px;
-        color: #C5C5C5;;
-        width: 100%;
-        float: none;
-        padding-bottom: 10%;
+        width: auto;
+        padding-left: 5%;
     }
 
     #imagem{
@@ -381,13 +366,13 @@ footer{
     .lista{
        font-size: 10px;
        padding-top: 5%;
-       padding-left: 4%;
     }
 
     #img1{
         width: 60px;
         height: 50px;
         padding-top: 15%;
+        margin-left: 0%;
     }
 
     #menu1 a{
@@ -403,7 +388,7 @@ footer{
     }
 
     #logo2{
-        margin-left: 40%;
+        margin-left: 45%;
     }
 
     #sec1 {
@@ -416,7 +401,7 @@ footer{
 /*visualização tablet*/
 
 @media only screen and (min-width:577px){
-    @media only screen and (max-width:768px)
+    @media only screen and (max-width:850px)
     {
 
     #imagem{
@@ -439,6 +424,7 @@ footer{
     font-size: 30px;
     padding-bottom: 5%;
     padding-top: 10%;
+    
    }
 
     .p1{
@@ -455,10 +441,12 @@ footer{
         position:relative;
     }
 
-}
+    .corpo{
+        padding-left: none;
+        width: auto;
+        margin: auto;
+    }
 
 }
 
-
-
-
+}
